@@ -14,6 +14,20 @@ import unittest
 #  you have to define one with the correct input variable(s) and return
 #  statement. Create your functions below and not inside the test class.
 
+def multiply(var1, var2):
+    var1 * var2
+    return var1 * var2
+
+def str_cat(var1, var2, var3):
+    return "" + var1 + " " + var2 + " " + var3 + ""
+
+def greater_than(var1, var2):
+    var1 < var2
+    return var1 < var2
+
+def get_random_number(low, high,):
+    random.randint(low, high)
+    return random.randint(low, high)
 
 # ======================= DO NOT EDIT THE CODE BELOW =========================
 
